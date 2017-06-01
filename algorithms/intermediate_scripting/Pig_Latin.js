@@ -18,9 +18,10 @@ function translatePigLatin(str) {
     
     if( startsWithConsonant )
     {
-        str = str.slice(firstLetter[0].length) + firstLetter + 'ay';    // we use the number of consonants that matched as the param for slice
+        // we use the number of consonants that matched as the param for slice
+        str = str.slice(firstLetter[0].length) + firstLetter + 'ay';    
     }
-    else    // if it starts with a vocal
+    else    // if it starts with a vowel
     {
         str = str + 'way';
     }
