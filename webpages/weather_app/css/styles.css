@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    
+}
+
+#banner {
+    
+    background-color: rgba(0,0,0,.01);
+}
+
+.title {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    color: green;
+}
+
+.icon_credits {
+    font-size: 8px;
+}
+
+
+#p1, #p2, #p3, #p4, #p5 {
+    font-size: 40px;
+    font-family:  Frijole, Helvetica, sans-serif;
+    color: green;
+}
+
+#title {
+    font-family:  Helvetica, Arial, sans-serif;
+}
+#intro_text {
+    font-size: 20px !important;
+}
+
+#animation {
+    background-color: green;
+    padding: 0.5px 3px;
+}
+
+#json_block {
+    font-size: 20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
